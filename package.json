@@ -1,6 +1,7 @@
 {
-  "name": "open-pro-next",
-  "version": "0.1.0",
+  "name": "tarpai-waitlist",
+  "version": "1.0.0",
+  "description": "TarpAI - AI-powered campus connectivity platform waitlist landing page",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",

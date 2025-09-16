@@ -22,12 +22,12 @@ export default function Footer() {
         <div className="grid grid-cols-2 justify-between gap-12 py-8 sm:grid-rows-[auto_auto] md:grid-cols-4 md:grid-rows-[auto_auto] md:py-12 lg:grid-cols-[repeat(4,minmax(0,140px))_1fr] lg:grid-rows-1 xl:gap-20">
           {/* 1st block */}
           <div className="space-y-2">
-            <h3 className="text-sm font-medium text-gray-200">Product</h3>
+            <h3 className="text-sm font-medium text-gray-200">Platform</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
+                  href="#features"
                 >
                   Features
                 </a>
@@ -35,41 +35,41 @@ export default function Footer() {
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
+                  href="#how-it-works"
                 >
-                  Integrations
+                  How It Works
                 </a>
               </li>
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
+                  href="#safety"
                 >
-                  Pricing &amp; Plans
+                  Safety & Security
                 </a>
               </li>
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
+                  href="#campuses"
                 >
-                  Changelog
+                  Campus Rollout
                 </a>
               </li>
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
+                  href="#ai-approach"
                 >
-                  Our method
+                  AI Approach
                 </a>
               </li>
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
+                  href="#privacy"
                 >
-                  User policy
+                  Privacy Policy
                 </a>
               </li>
             </ul>
@@ -81,31 +81,31 @@ export default function Footer() {
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
+                  href="#about"
                 >
-                  About us
+                  About TarpAI
                 </a>
               </li>
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
+                  href="#team"
                 >
-                  Diversity &amp; Inclusion
+                  Our Team
                 </a>
               </li>
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
+                  href="#mission"
                 >
-                  Blog
+                  Mission & Values
                 </a>
               </li>
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
+                  href="#careers"
                 >
                   Careers
                 </a>
@@ -113,39 +113,47 @@ export default function Footer() {
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
+                  href="#press"
                 >
-                  Financial statements
+                  Press & Media
                 </a>
               </li>
             </ul>
           </div>
           {/* 3rd block */}
           <div className="space-y-2">
-            <h3 className="text-sm font-medium text-gray-200">Resources</h3>
+            <h3 className="text-sm font-medium text-gray-200">Support</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
+                  href="#help"
                 >
-                  Community
+                  Help Center
                 </a>
               </li>
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
+                  href="#contact"
                 >
-                  Terms of service
+                  Contact Us
                 </a>
               </li>
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
+                  href="#terms"
                 >
-                  Report a vulnerability
+                  Terms of Service
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  href="#security"
+                >
+                  Report Security Issue
                 </a>
               </li>
             </ul>
@@ -153,47 +161,47 @@ export default function Footer() {
           {/* 4th block */}
           <div className="space-y-2">
             <h3 className="text-sm font-medium text-gray-200">
-              Content Library
+              Community
             </h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
+                  href="#campus-ambassadors"
                 >
-                  Templates
+                  Campus Ambassadors
                 </a>
               </li>
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
+                  href="#student-feedback"
                 >
-                  Tutorials
+                  Student Feedback
                 </a>
               </li>
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
+                  href="#beta-testing"
                 >
-                  Knowledge base
+                  Beta Testing Program
                 </a>
               </li>
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
+                  href="#discord"
                 >
-                  Learn
+                  Join Discord
                 </a>
               </li>
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
+                  href="#updates"
                 >
-                  Cookie manager
+                  Product Updates
                 </a>
               </li>
             </ul>
@@ -205,13 +213,20 @@ export default function Footer() {
             </div>
             <div className="text-sm">
               <p className="mb-3 text-indigo-200/65">
-                © Cruip.com
+                © 2024 TarpAI, Inc.
                 <span className="text-gray-700"> · </span>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
+                  href="#terms"
                 >
                   Terms
+                </a>
+                <span className="text-gray-700"> · </span>
+                <a
+                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  href="#privacy"
+                >
+                  Privacy
                 </a>
               </p>
               <ul className="inline-flex gap-1">

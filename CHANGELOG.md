@@ -1,56 +1,45 @@
-# CHANGELOG.md
+# TarpAI Waitlist Landing Page - Changelog
 
-## [5.0.0] - 2025-02-04
+## [1.0.0] - 2025-09-16
 
-- Updgrade to Tailwind v4
-- Update dependencies
+### 🎉 Initial Release
+- ✨ **Complete TarpAI Waitlist Landing Page**
+  - Hero section with compelling AI-powered campus connectivity messaging
+  - Interactive demo video showcasing TarpAI functionality
+  - Feature sections for ride sharing, roommate matching, marketplace, study groups, activity buddies, and messaging
+  - Waitlist CTA with direct integration to form collection service
+  - Statistics display (5,000+ students waiting, 50+ campuses requested)
 
-## [4.1.0] - 2024-12-08
+- 🎨 **Dual Theme Support**
+  - Dark theme (default) at `/`
+  - Light theme at `/light`
+  - Smooth theme switching with proper styling
 
-- Update dependencies + Upgrade to Next.js 15
+- 🛠️ **Technical Foundation**
+  - Built with Next.js 15 and React 19
+  - TypeScript for type safety
+  - Tailwind CSS 4 for modern styling
+  - AOS animations for engaging interactions
+  - Optimized fonts (Inter + Nacelle)
+  - Mobile-responsive design
+  - Accessibility compliance (ARIA labels, keyboard navigation)
 
-## [4.0.0] - 2024-09-11
+- 📱 **Key Features**
+  - Interactive video player with play/pause controls
+  - University selector component (ready for integration)
+  - Waitlist form modal with validation
+  - Loading states and user feedback
+  - SEO-optimized metadata
 
-Redesign the entire template
+- 🏗️ **Architecture**
+  - Component-based architecture with reusable UI elements
+  - Route-based organization (auth routes, theme routes)
+  - Proper separation of concerns
+  - Custom hooks for functionality (mouse tracking, masonry layout)
 
-## [3.3.0] - 2023-12-08
-
-Update to Next.js 14
-Update dependencies
-
-## [3.2.2] - 2023-10-04
-
-Update Twitter icon
-Update dependencies
-
-## [3.2.0] - 2023-05-31
-
-Update dependencies and fix some issues
-
-## [3.1.0] - 2023-05-07
-
-Modal video improvements
-
-## [3.0.0] - 2023-04-12
-
-Conversion to Next.js
-
-## [2.0.3] - 2023-03-28
-
-Fix video
-
-## [2.0.2] - 2023-03-28
-
-Add self-hosted video
-
-## [2.0.1] - 2023-02-16
-
-Remove header links
-
-## [2.0.0] - 2023-02-16
-
-Replace Cruip CSS with Tailwind CSS
-
-## [1.0.0] - 2020-04-07
-
-First release
+### 🔄 Migration from Template
+- Completely replaced template branding with TarpAI identity
+- Updated all copy, messaging, and UI elements
+- Custom footer with TarpAI-specific links and social media
+- Updated package.json with project details
+- Comprehensive documentation in README.md

@@ -4,14 +4,14 @@ This file provides guidance to WARP (warp.dev) when working with code in this re
 
 ## Project Overview
 
-This is a Next.js 15 landing page template called "Open PRO" built with:
+This is the **TarpAI Waitlist Landing Page** - a Next.js 15 application for TarpAI's AI-powered campus connectivity platform. Built with:
 - **Next.js 15** with App Router and React Server Components
 - **React 19** with TypeScript
 - **Tailwind CSS v4** for styling with custom design tokens
 - **AOS (Animate On Scroll)** for smooth scroll animations
 - **Headless UI** for accessible interactive components
 
-The project is based on a free template from Cruip.com and serves as a modern landing page for SaaS products, open source projects, or online services.
+**TarpAI** helps students find rides, roommates, study groups, and activity partners through AI-powered matching. This landing page collects waitlist signups before the platform launches at universities.
 
 ## Architecture
 
@@ -19,19 +19,22 @@ The project is based on a free template from Cruip.com and serves as a modern la
 ```
 app/
 ├── (auth)/           # Authentication pages (signin, signup, reset-password)
-├── (default)/        # Main landing page layout and content
+├── (default)/        # Main dark theme landing page layout and content
+├── light/            # Light theme variant of landing page
 ├── api/              # API routes
 ├── css/              # Global styles and Tailwind configuration
 └── layout.tsx        # Root layout with fonts and global structure
 
 components/
 ├── ui/               # Reusable UI components (header, footer, logo)
-├── hero-home.tsx     # Main hero section with video modal
-├── features.tsx      # Features grid section
-├── workflows.tsx     # Workflows showcase
-├── testimonials.tsx  # Customer testimonials
-├── cta.tsx          # Call-to-action section
-└── *.tsx            # Other landing page sections
+├── light/            # Light theme specific component variants
+├── hero-home.tsx     # Main hero section with TarpAI messaging and waitlist CTA
+├── features.tsx      # TarpAI features (ride sharing, roommates, marketplace, etc.)
+├── workflows.tsx     # How TarpAI AI matching works
+├── tarpai-video.tsx  # Interactive demo video player
+├── university-selector.tsx  # University selection component
+├── waitlist-cta.tsx  # Waitlist signup call-to-action
+└── *.tsx            # Other TarpAI landing page sections
 
 utils/
 ├── useMasonry.tsx   # Custom masonry layout hook
@@ -150,10 +153,26 @@ The project is configured for Vercel deployment (as mentioned in README):
 - API routes supported
 - Environment variables can be configured in Vercel dashboard
 
-## Key Files to Modify
+## Key TarpAI Files
 
-- `app/(default)/page.tsx` - Main landing page composition
-- `components/hero-home.tsx` - Primary hero section and main CTA
-- `components/features.tsx` - Product features showcase
+### Main Pages
+- `app/(default)/page.tsx` - Main dark theme landing page composition
+- `app/light/page.tsx` - Light theme variant with theme toggle
+- `app/layout.tsx` - Root layout with TarpAI metadata and branding
+
+### Core TarpAI Components
+- `components/hero-home.tsx` - Hero section with TarpAI messaging, stats, and waitlist CTA
+- `components/features.tsx` - TarpAI features (smart ride sharing, roommate matching, etc.)
+- `components/tarpai-video.tsx` - Interactive demo video showcasing AI matching
+- `components/university-selector.tsx` - University selection for waitlist signup
+- `components/waitlist-cta.tsx` - Main call-to-action for joining waitlist
+- `components/workflows.tsx` - How TarpAI's AI matching process works
+
+### UI & Branding
+- `components/ui/footer.tsx` - TarpAI footer with campus-focused links
+- `components/ui/logo.tsx` - TarpAI logo component
 - `app/css/style.css` - Global styling and design tokens
-- `app/layout.tsx` - Site metadata and global structure
+
+### Configuration
+- `package.json` - Project metadata for TarpAI waitlist app
+- `README.md` - Comprehensive TarpAI project documentation
